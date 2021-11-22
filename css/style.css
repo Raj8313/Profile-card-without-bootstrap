@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #19a2ad;
+  font-family: "Quicksand", sans-serif;
+}
+.card {
+  width: 320px;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.cardHeader {
+  height: 100px;
+  background-color: #23b6bd;
+  text-align: center;
+}
+
+.cardBody {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid red; */
+  padding: 2rem 0;
+}
+
+.imgDiv {
+  height: 120px;
+  width: 120px;
+  /* border: 1px solid red; */
+  border-radius: 5000px;
+  overflow: hidden;
+  margin-top: -90px;
+}
+.imgDiv > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profileName {
+  font-size: 1.2rem;
+  margin: 0.6rem 0;
+  font-weight: 700;
+}
+
+.age {
+  font-weight: 600;
+  color: rgb(138, 61, 61);
+}
+
+.location {
+  color: #584e4e;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid green; */
+  border-top: 1px solid #cbcbcb;
+  padding: 1.5rem 0;
+  background-color: #ffffff;
+}
+
+.footerItem {
+  margin: 0 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countNum {
+  color: #000000;
+  font-weight: 700;
+  /* border: 1px solid black; */
+}
+
+.countText {
+  color: #877d7d;
+}
+
+.top-image {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  border-radius: 500px;
+}
+
+.top-image > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
